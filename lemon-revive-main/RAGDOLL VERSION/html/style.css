@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif; /* Change the font here */
+}
+
+
+#death-ui {
+    display: none;
+    position: fixed;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif; /* Change the font here */
+}
+
+#death-ui2 {
+    display: none;
+    position: fixed;
+    bottom: 9%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: rgb(255, 91, 91);
+    font-size: 12.2px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif; /* Change the font here */
+}
+
+.key {
+    color: yellow;
+    font-weight: bold;
+}
+
+
+
+.key2 {
+    color: rgb(255, 166, 0);
+    font-weight: bold;
+    font-size: large;
+}
+
+
+
